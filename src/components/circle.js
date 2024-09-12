@@ -7,4 +7,5 @@ const circle = () => {
       </div>
   )
 }
+
 export default circle

@@ -11,7 +11,15 @@ const navbar = () => {
 
       <div className='text-white'>
         <a href='/'>
-          vision & Mission
+          Home
+        </a>
+
+        <a href='/'>
+          About
+        </a>
+
+        <a href='/'>
+          Get Touch
         </a>
       </div>
 
