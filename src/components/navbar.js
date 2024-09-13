@@ -9,7 +9,7 @@ const navbar = () => {
 
       <h1 className='text-white font-bold text-[50px]'>Tooclarity </h1>
 
-      <div className='text-white'>
+      <div className='text-white flex gap-[20px] text-[20px] font-bold'>
         <a href='/'>
           Home
         </a>
@@ -19,11 +19,9 @@ const navbar = () => {
         </a>
 
         <a href='/'>
-          Get Touch
+          Contact
         </a>
       </div>
-
-
     </div>
   )
 }
