@@ -1,5 +1,4 @@
 import React from 'react'
-// import Globe from '../Assets/Globe.png'
 
 
 const circle = () => {
@@ -7,8 +6,6 @@ const circle = () => {
     <div className='relative flex item-center justify-center' >
         <div className='sm:w-[1200px] sm:h-[1200px] w-[550px] h-[550px] rounded-full first-line:rounded-full shadow-[0_60px_70px_rgba(0,0,128,0.50)] absolute rotate-180 top-[600px]'>
         </div>
-
-        {/* <img src={Globe} className='sm:w-[700px] sm:h-[700px] w-[550px] h-[550px] rounded-full first-line:rounded-full absolute " rotate-180 top-[150px]' alt='.'></img> */}
       </div>
   )
 }
