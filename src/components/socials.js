@@ -13,5 +13,6 @@ const socials = () => {
       </div>
     </div>
   )
+  
 }
 export default socials
