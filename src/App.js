@@ -13,14 +13,16 @@ function App() {
         <h1 className="sm:tracking-[50px] justify-center m-[50px] items-center text-center tracking-[20px] font-extrabold md:text-4xl sm:text-[30px] text-[25px] text-white">COMMING SOON</h1>
         <h3 className="sm:tracking-[10px] tracking-[5px] m-[50px] sm:text-1xl text-15px text-white">World Education on One Scale</h3>
         <label className="text-white" >Lunching...</label>
-        <div className="flex justify-center items-center gap-[10px]"> 
-        <progress className="w-[200px] h-[10px] rounded-full border-[rgba(0,0,128)] border-[1px] bg-black bg-gradient-to-r from-black via-[rgba(0,0,128,0.1)] to-black" id="file" value="2" max="100"></progress> <p className='text-white text-[10px]'>0.001 %</p>
+        <div className="flex justify-center items-center"> 
+        <div class="w-[200px] h-[10px] broder-[rgba(0,0,128,0.45)] rounded-full bg-gray-700">
+          <div class="h-[10px] bg-blue-600 text-[5px] font-medium text-blue-100 text-center leading-none rounded-full w-[2%]"> 0.001%</div>
+        </div>
         </div>
       </div>
     </div>
-    <FontAwesomeIcon color='white' className="w-screen text-[25px] text-white animate-bounce justify-center absolute bottom-[100px]" icon={faChevronDown}/>
-    <FontAwesomeIcon color='white' className="w-screen text-[25px] text-white animate-bounce justify-center absolute bottom-[115px]" icon={faChevronDown}/>
-    <FontAwesomeIcon color='white' className="w-screen text-[25px] text-white animate-bounce justify-center absolute bottom-[130px]" icon={faChevronDown}/>
+    <FontAwesomeIcon color='white' className="w-screen text-[25px] text-white animate-bounce justify-center absolute md:bottom-[100px] bottom-[50px]" icon={faChevronDown}/>
+    <FontAwesomeIcon color='white' className="w-screen text-[25px] text-white animate-bounce justify-center absolute md:bottom-[115px] bottom-[65px]" icon={faChevronDown}/>
+    <FontAwesomeIcon color='white' className="w-screen text-[25px] text-white animate-bounce justify-center absolute md:bottom-[130px] bottom-[80px]" icon={faChevronDown}/>
     </div>
   );
 }
