@@ -12,13 +12,13 @@ const Navbar = () => {
 
         {/* Social Media Icons */}
         <div className="flex space-x-6">
-          <a href="#" className="hover:text-blue-500 transition-all duration-300">
+          <a href="/" className="hover:text-blue-500 transition-all duration-300">
             <FaFacebookF />
           </a>
-          <a href="#" className="hover:text-blue-400 transition-all duration-300">
+          <a href="/" className="hover:text-blue-400 transition-all duration-300">
             <FaTwitter />
           </a>
-          <a href="#" className="hover:text-pink-500 transition-all duration-300">
+          <a href="/" className="hover:text-pink-500 transition-all duration-300">
             <FaInstagram />
           </a>
         </div>
