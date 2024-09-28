@@ -33,7 +33,7 @@ const Countdown = () => {
   return (
     <div className="text-center text-white bg-transparent"> 
       <h1 className="lg:text-5xl sm:text-[25px] text-[20px] mb-6">We're Launching Soon</h1>
-      <p className="mt-6 md:text-[20px] text-[10px]">World Education On One Scale</p>
+      <p className="mt-6 lg:text-[20px] md:text-[15px] text-[10px]">World Education On One Scale</p>
       <div className="flex justify-center space-x-4 lg:space-x-6 lg:text-4xl text-[10px] lg:m-[50px]">
         <div className='bg-transparent text-white lg:w-[100px] w-[50px] h-[50px] lg:h-[100px] p-2 rounded-lg'>
           <span className='lg:text-[17px]'>{timeLeft.days}</span>
