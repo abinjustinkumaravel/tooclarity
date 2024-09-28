@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <div className="text-2xl font-bold">
-          <a href="/">YourLogo</a>
+          <a className='logo' href="/">Too CLARITY</a>
         </div>
 
         {/* Social Media Icons */}

@@ -15,6 +15,30 @@ body {
   overflow: hidden; */
 }
 
+@font-face {
+  font-family: 'MyFont';
+  src: local('MyFont'), url(./fonts/METHANERSE\ Free\ Trial.ttf) format('truetype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
+@font-face {
+  font-family: 'MyFont1';
+  src: local('MyFont1'), url(./fonts/pirulen/pirulen\ rg.otf) format('opentype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
+/* 
+.logo{
+  font-family: MyFont;
+} */
+
+body{
+  font-family: MyFont1;
+  background-color: black;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
