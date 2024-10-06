@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import About from './components/About';
+// import About from './components/About';
 import Countdown from './components/Countdown';
 import Footer from './components/Footer';
 import BG from "../src/Assets/img/futuristic-moon-background.jpg"
