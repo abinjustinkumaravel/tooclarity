@@ -15,22 +15,6 @@ const TimeLine = () => {
         <VerticalTimeline>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                contentStyle={{ background: '#0717ff13', color: '#fff' }}
-                contentArrowStyle={{ borderRight: '7px solid  #0717ff13' }}
-                date="Small Businesses"
-                iconStyle={{ background: '#0717ff', color: '#fff' }}
-                icon={<MdAddBusiness />}
-            >
-                <h3 className="vertical-timeline-element-title"><strong>Small Businesses</strong> </h3>
-                <p>
-                Whether you’re a local business or a growing startup, We helps you
-                    create and manage marketing campaigns to increase visibility and customer engagement. From targeted ads
-                    to insightful analytics, we give businesses the tools they need to succeed.
-                </p>
-            </VerticalTimelineElement>
-
-            <VerticalTimelineElement
-                className="vertical-timeline-element--work"
                 contentStyle={{ background: '#ff07f313', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid  #ff07f313' }}
                 date="Small Businesses"
@@ -71,7 +55,7 @@ const TimeLine = () => {
             >
                 <h3 className="vertical-timeline-element-title"> <strong>Non-Profit Organizations</strong> </h3>
                 <p>
-                Non-profits focused on education can use Eduvertiser to raise awareness
+                Non-profits focused on education can use TooClarity to raise awareness
                 for their causes, organize campaigns, and amplify their message. Our platform provides you with the tools
                 to run effective campaigns and reach the right audience.
                 </p>
