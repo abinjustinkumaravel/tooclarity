@@ -9,7 +9,7 @@ const Countdown = () => {
   useEffect(() => {
     const targetDate = new Date('2024-12-31T00:00:00').getTime();
 
-    const interval = setInterval(() => {
+      const interval = setInterval(() => {
       const now = new Date().getTime();
       const difference = targetDate - now;
 
