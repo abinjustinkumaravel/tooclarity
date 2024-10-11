@@ -13,7 +13,7 @@ body {
   width: 100%;
   height:fit-content;
   overflow-x: hidden;
-  background-color:black;
+  background-color:#000000;
 }
 
 @font-face {

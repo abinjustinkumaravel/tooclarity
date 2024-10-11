@@ -3,7 +3,7 @@ import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
 
 const Navbar = () => {
   return (
-    <nav className="fixed top-0 left-0 right-0 z-10 bg-transparent text-white p-4">
+    <nav className="fixed top-0 left-0 right-0 z-10 text-white p-4">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <div className="md:text-2xl  font-bold">

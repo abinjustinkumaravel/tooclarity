@@ -3,10 +3,10 @@ import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa6";
 
 const About = () => {
   return (
-    <div className="lg:w-[80%] m-[10%]">
+    <div className="lg:w-[80%] m-[10%] ">
       {/* About Section */}
       <div>
-      <h1 className="text-3xl md:text-4xl font-bold text-white mb-20 flex w-[100%] justify-center">What We Do</h1>
+      <h1 className="text-3xl md:text-4xl font-bold text-white mb-20 flex w-[100%] justify-center ">What We Do</h1>
         <p className= " relative text-white text-lg md:text-xl mb-8 bg-[#0717ff13] text-center p-10 rounded-xl font-sans">
         <span className='absolute left-5 ' ><FaQuoteLeft /></span><strong>TooClarity</strong> is a platform built to help educational institutions and businesses
             simplify their marketing and advertising efforts. We empower users to reach their target

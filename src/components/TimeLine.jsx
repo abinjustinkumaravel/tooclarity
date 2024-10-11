@@ -8,7 +8,7 @@ import React from 'react'
 
 const TimeLine = () => {
   return (
-    <div className='w-[80%] m-[10%]'>
+    <div className='w-[80%] ml-[10%] mr-[10%] '>
     <h1 className="text-3xl md:text-4xl font-bold text-white mb-20 flex w-[100%] text-center justify-center">What We Bring to You</h1>
         <div className='font-sans'>
         <VerticalTimeline>
@@ -17,7 +17,7 @@ const TimeLine = () => {
                 contentStyle={{ background: '#ff07f313', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid  #ff07f313' }}
                 date="Small Businesses"
-                iconStyle={{ background: '#ff07f3', color: '#fff' }}
+                iconStyle={{ background: '#000', color: '#fff' }}
                 icon={<MdOutlineSchool />}
             >
                 <h3 className="vertical-timeline-element-title"> <strong>Educational Institutions</strong> </h3>
@@ -33,7 +33,7 @@ const TimeLine = () => {
                 contentStyle={{ background: '#07ff1313', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid  #07ff1313' }}
                 date="Tutors and Coaches"
-                iconStyle={{ background: '#24ff07', color: '#fff' }}
+                iconStyle={{ background: '#000', color: '#fff' }}
                 icon={<LiaChalkboardTeacherSolid />}
             >
                 <h3 className="vertical-timeline-element-title"> <strong>Tutors and Coaches</strong> </h3>
@@ -49,7 +49,7 @@ const TimeLine = () => {
                 contentStyle={{ background: '#ff070713', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid  #ff070713' }}
                 date="Non-Profit Organizations"
-                iconStyle={{ background: '#ff0707', color: '#fff' }}
+                iconStyle={{ background: '#000', color: '#fff' }}
                 icon={<RiOrganizationChart />}
             >
                 <h3 className="vertical-timeline-element-title"> <strong>Non-Profit Organizations</strong> </h3>

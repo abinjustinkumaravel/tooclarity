@@ -59,7 +59,7 @@ const Countdown = () => {
           <span className='lg:text-[17px]'>{timeLeft.seconds}</span>
           <p className="lg:text-[15px]">Sec</p>
         </div>
-        <div className="absolute z-[0] w-[100%] h-[50%] md:bottom-0 bottom-20 blue__gradient" />
+        <div className="absolute z-[0] w-[90%] h-[50%] md:bottom-0 bottom-20 blue__gradient" />
       </div>
  {/* Email Notification className='lg:text-[17px]' Form */}
       <form onSubmit={handleEmailSubmit} className="md:block relative md:bottom-[-50px] bottom-[-50px] mt-10 lg:mt-[100px] flex justify-center space-x-4 lg:text-[12px] text-[10px]">
