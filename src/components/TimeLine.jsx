@@ -10,7 +10,7 @@ import React from 'react'
 const TimeLine = () => {
   return (
     <div className='w-[80%] m-[10%] font-sans'>
-<h1 className="text-3xl md:text-4xl font-bold text-white mb-20 flex w-[100%] justify-center">What We Bring to You</h1>
+<h1 className="text-3xl md:text-4xl font-bold text-white mb-20 flex w-[100%] text-center justify-center">What We Bring to You</h1>
         <div>
         <VerticalTimeline>
             <VerticalTimelineElement
@@ -23,7 +23,7 @@ const TimeLine = () => {
             >
                 <h3 className="vertical-timeline-element-title"><strong>Small Businesses</strong> </h3>
                 <p>
-                Whether you’re a local business or a growing startup, Eduvertiser helps you
+                Whether you’re a local business or a growing startup, We helps you
                     create and manage marketing campaigns to increase visibility and customer engagement. From targeted ads
                     to insightful analytics, we give businesses the tools they need to succeed.
                 </p>
@@ -39,7 +39,7 @@ const TimeLine = () => {
             >
                 <h3 className="vertical-timeline-element-title"> <strong>Educational Institutions</strong> </h3>
                 <p>
-                Schools, colleges, and universities can leverage Eduvertiser to
+                Schools, colleges, and universities can leverage TooClarity to
                     manage promotional campaigns, attract students, and showcase their strengths. Our platform ensures
                     that educational institutions can reach their target audience effectively and expand their influence.
                 </p>
@@ -55,7 +55,7 @@ const TimeLine = () => {
             >
                 <h3 className="vertical-timeline-element-title"> <strong>Tutors and Coaches</strong> </h3>
                 <p>
-                Freelance tutors and personal coaches can also benefit from Eduvertiser by
+                Freelance tutors and personal coaches can also benefit from TooClarity by
                     promoting their services and connecting with potential students. Our platform helps you streamline your
                     outreach and ensures you reach those who need your expertise.
                 </p>
