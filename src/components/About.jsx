@@ -16,17 +16,17 @@ const About = () => {
         </div>
 
     <div className='lg:flex justify-center align-center w-[100%]'>
-      <div className='lg:w-[50%] p-10'>    
+      <div className='lg:w-[50%] md:p-10'>    
           {/* Vision Section */}  
         <h2 className="text-2xl w-[100%] flex justify-center md:text-3xl font-semibold text-white mb-4">Our Vision</h2>
-        <p className="relative text-white text-lg md:text-xl text-center flex items-center mb-8 bg-[#ff0080a2] p-10 rounded-xl">
+        <p className="relative text-white text-lg md:text-xl text-center flex items-center mb-8 bg-[#ff0080a2] md:p-10 rounded-xl">
         Our vision at TooClarity is to become the leading educational discovery platform that bridges learners with the right educational opportunities. We aim to simplify the journey of finding and accessing the best courses, programs, and institutions worldwide, empowering individuals to make informed choices and unlock their potential through knowledge and growth.
         </p>
       </div>
           {/* Mission Section */}
-      <div className='lg:w-[50%] p-10'>
+      <div className='lg:w-[50%] md:p-10'>
         <h2 className="text-2xl md:text-3xl w-[100%] flex justify-center font-semibold text-white mb-4">Our Mission</h2>
-        <p className="text-white text-lg md:text-xl text-center flex items-center mb-8 bg-[#c300ffa2] p-10 rounded-xl">
+        <p className="text-white text-lg md:text-xl text-center flex items-center mb-8 bg-[#c300ffa2] md:p-10 rounded-xl">
         Our mission is to empower learners and institutions by providing a seamless educational discovery platform that simplifies the process of finding the right courses, programs, and new experiences. We are dedicated to making education more accessible, personalized, and impactful by connecting people with opportunities that match their aspirations, goals, and growth.
         </p>
       </div>
@@ -39,3 +39,5 @@ const About = () => {
 };
 
 export default About;
+
+
