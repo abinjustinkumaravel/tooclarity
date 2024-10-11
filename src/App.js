@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import About from './components/About';
 import Countdown from './components/Countdown';
 import Footer from './components/Footer';
+import Timeline from './components/TimeLine';
 import BG from "../src/Assets/img/futuristic-moon-background.jpg"
 
 
@@ -15,6 +16,7 @@ const App = () => {
         <Countdown />
       </main>
       <About/>
+      <Timeline/>
       <Footer />
     </div>
   );
