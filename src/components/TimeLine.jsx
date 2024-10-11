@@ -8,9 +8,9 @@ import React from 'react'
 
 const TimeLine = () => {
   return (
-    <div className='w-[80%] m-[10%] font-sans'>
-<h1 className="text-3xl md:text-4xl font-bold text-white mb-20 flex w-[100%] text-center justify-center">What We Bring to You</h1>
-        <div>
+    <div className='w-[80%] m-[10%]'>
+    <h1 className="text-3xl md:text-4xl font-bold text-white mb-20 flex w-[100%] text-center justify-center">What We Bring to You</h1>
+        <div className='font-sans'>
         <VerticalTimeline>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
