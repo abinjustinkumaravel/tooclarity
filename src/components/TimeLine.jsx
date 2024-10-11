@@ -1,5 +1,4 @@
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
-import { MdAddBusiness } from "react-icons/md";
 import { MdOutlineSchool } from "react-icons/md";
 import { LiaChalkboardTeacherSolid } from "react-icons/lia";
 import { RiOrganizationChart } from "react-icons/ri";
