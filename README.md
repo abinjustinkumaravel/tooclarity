@@ -104,6 +104,6 @@ This project is licensed under the [MIT License](LICENSE).
 If you have any questions or feedback, please reach out:
 
 - **GitHub**: [abinjustinkumaravel](https://github.com/abinjustinkumaravel)
-- **Email**: your-email@example.com
+- **Email**: abinjustinkumaravel@gmail.com
 
 Happy coding!
