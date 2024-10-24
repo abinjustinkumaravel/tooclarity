@@ -1,4 +1,4 @@
-# TooClarity - React App Setup and Installation
+# TooClarity - Setup and Installation
 
 Welcome to **TooClarity**, a React app! This guide will help you set up and install the project on your local machine.
 
@@ -105,5 +105,3 @@ If you have any questions or feedback, please reach out:
 
 - **GitHub**: [abinjustinkumaravel](https://github.com/abinjustinkumaravel)
 - **Email**: abinjustinkumaravel@gmail.com
-
-Happy coding!
